@@ -1,0 +1,29 @@
+.nav { 
+    /* height:90px; */
+    top: 0; 
+    right: 0; 
+    width: 100%; 
+    display: grid; 
+    place-content: center; 
+    box-shadow: #110c2e11 0px 15px 50px 0px; 
+} 
+ 
+nav { 
+    width: 100%; 
+    padding: 25px; 
+    display: flex; 
+    align-content: center; 
+    justify-content: center; 
+    position: fixed; 
+    z-index: 10000; 
+} 
+ 
+.menu { 
+    width: 100%; 
+    display: flex; 
+    gap: 25px; 
+}
+.link-item{
+    text-decoration: none;
+    color: #0b131d;
+}
