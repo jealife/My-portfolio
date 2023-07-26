@@ -13,9 +13,16 @@ html {
 .about-hero,
 .portfolio-hero {
     z-index: -1;
-    min-height: 90vh;
-    min-height: 90dvh;
+    min-height: 100vh;
+    min-height: 100dvh;
     height: 100%;
     display: grid;
     place-content: center;
+}
+.portfolio{
+    background:#f2f3fa ;
+}
+.home{
+    
+    background: #e0e0e0;
 }
