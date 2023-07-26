@@ -1,102 +1,65 @@
-.nav {
-    background:b transparent;
+header{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+    position: fixed;
     top: 0;
-    right: 0;
-    width: 100%;
-    display: flex;
-    align-content: flex-end;
-    justify-content: center;
-    flex-wrap: nowrap;
-    flex-direction: column;
-    align-items: center;
-}
-
-
-nav {
-    position: fixed;
-    top: .5rem;
-    border-radius: var(--container-border-radius);
-    height: 55px;
     z-index: 10000;
+    padding: 1rem;
+   
 }
-
-.nav-menu {
-    max-width: 1024px;
-    top: .5rem;
-    border-radius: var(--container-border-radius);
-    height: 55px;
+nav{
+    border-bottom: 1px solid #a6b4c8de;
     display: flex;
+    align-items: center;
+    width: 100%;
     justify-content: center;
-    align-items: center;
-    
-    width: 100%;
-    padding: 25px;
     position: fixed;
-    z-index: 10000;
-    padding: 1rem 2.25rem;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    gap: .5rem;
-    box-shadow: #110c2e11 0px 15px 50px 0px;
-
-    background-color: var(--nav-color);
-    backdrop-filter: blur(18px);
-    -webkit-backdrop-filter: blur(18px);
+    top: 0;
+    padding: 1rem;
 }
 
 
-.nav-logo {
-    color: var(--vibrant);
-    font-size: 24px;
+.menu .link-item {
+    margin-left: 2rem;
+    color: #07080c;
+    font-weight: 500;
+    padding: 0.5rem 0;
+    transition: all .5s;
 }
-
-.nav-link {
-    transition: all .4s;
-    color: var(--muted);
-}
-
-.nav-link:nth-child(1) {
-
-    color: var(--vibrant);
-}
-
-.nav-link:hover {
-    color: var(--vibrant);
-}
-
-
-.dot {
-    color: var(--vibrant);
-}
-
-.header {
-
-    width: 100%;
-}
-
-
 
 .menu {
     display: flex;
-    align-items: center;
-    padding: 0 0 .5rem 0;
-    gap: 25px;
 }
 
-.link-item {
-    text-decoration: none;
-    color: #0b131d;
-    padding: 0 .5rem;
-    display: inline-block;
-    margin-left: .2rem;
+.menu .link-item:hover {
+    color: #2A46FF;
+    border-bottom: #2A46FF 1px solid;
 }
+
 
 .active {
+    color: #2A46FF;
+    border-radius: .5rem;
+    border-bottom: #2A46FF 1px solid;
+}
+
+.menu-icon {
+    display: none;
+}
+
+.menu-icon i {
+    color: #07080c;
+    cursor: pointer;
+    font-size: 30px;
+}
+
+/* .active {
     border-bottom: #90bfce solid 0.5px;
     color: #0e0e0e;
     border-radius: 1rem;
-}
+} */
 
 .logo {
     width: 35px;
