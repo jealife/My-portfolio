@@ -1,4 +1,5 @@
 import React from "react";
+import 'transition-style';
 import Navigation from "./Components/Navigation";
 // import { BrowserRouter as Router, Route, Routes, Link } from "react-router-dom";
 // import Home from "./Components/Home";
@@ -6,7 +7,6 @@ import Navigation from "./Components/Navigation";
 import AOS from 'aos';
 import 'aos/dist/aos.css'; 
 AOS.init();
-import 'transition-style';
 
 
 const App = () => {
