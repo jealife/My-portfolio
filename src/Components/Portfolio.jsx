@@ -3,8 +3,8 @@ import '../Asset/Style/Main.css';
 const Portfolio = () => {
     return (
         <div className="portfolio" transition-style="in:circle:top-right">
-            <div className="portfolio-hero">
-                <h1 data-aos="flip-left">Portfolio</h1>
+            <div className="portfolio-hero" >
+                <h1 data-aos="flip-left" data-aos-duration="500">Portfolio</h1>
             </div>
         </div>
     )

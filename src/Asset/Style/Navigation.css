@@ -1,43 +1,103 @@
-.nav { 
-    background:#ffffff;
-    top: 0; 
-    right: 0; 
-    width: 100%; 
-    box-shadow: #110c2e11 0px 15px 50px 0px; 
-    display: flex; 
-    align-content: center; 
-    justify-content: space-between; 
-} 
- .header{
-    
-    width:100%;
- }
-nav { 
-    width: 100%; 
-    padding: 25px; 
-    position: fixed; 
-    z-index: 10000; 
-} 
- 
-.menu { 
-     display:flex;
-     align-items:center;
-    padding:0 0 .5rem 0;
-    gap: 25px; 
-}
-.link-item{
-    text-decoration: none;
-    color: #0b131d;
-    padding:0  .5rem ;
-    display: inline-block; 
-    margin-left:.2rem;
+.nav {
+    background:b transparent;
+    top: 0;
+    right: 0;
+    width: 100%;
+    display: flex;
+    align-content: flex-end;
+    justify-content: center;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-items: center;
 }
 
-.active{
-    border-bottom: #f2f3fa solid 0.5px;
-    color:#0e0e0e;
-    border-radius:1rem ;
+
+nav {
+    position: fixed;
+    top: .5rem;
+    border-radius: var(--container-border-radius);
+    height: 55px;
+    z-index: 10000;
 }
-.logo{
-    width:35px;
+
+.nav-menu {
+    max-width: 1024px;
+    top: .5rem;
+    border-radius: var(--container-border-radius);
+    height: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    width: 100%;
+    padding: 25px;
+    position: fixed;
+    z-index: 10000;
+    padding: 1rem 2.25rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: .5rem;
+    box-shadow: #110c2e11 0px 15px 50px 0px;
+
+    background-color: var(--nav-color);
+    backdrop-filter: blur(18px);
+    -webkit-backdrop-filter: blur(18px);
+}
+
+
+.nav-logo {
+    color: var(--vibrant);
+    font-size: 24px;
+}
+
+.nav-link {
+    transition: all .4s;
+    color: var(--muted);
+}
+
+.nav-link:nth-child(1) {
+
+    color: var(--vibrant);
+}
+
+.nav-link:hover {
+    color: var(--vibrant);
+}
+
+
+.dot {
+    color: var(--vibrant);
+}
+
+.header {
+
+    width: 100%;
+}
+
+
+
+.menu {
+    display: flex;
+    align-items: center;
+    padding: 0 0 .5rem 0;
+    gap: 25px;
+}
+
+.link-item {
+    text-decoration: none;
+    color: #0b131d;
+    padding: 0 .5rem;
+    display: inline-block;
+    margin-left: .2rem;
+}
+
+.active {
+    border-bottom: #90bfce solid 0.5px;
+    color: #0e0e0e;
+    border-radius: 1rem;
+}
+
+.logo {
+    width: 35px;
 }

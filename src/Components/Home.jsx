@@ -1,15 +1,16 @@
 import React from "react";
-import '../Asset/Style/Main.css';
-import About from "./About";
+import "../Asset/Style/Main.css";
+import "../Asset/Style/Responsive.css";
+
 const Home = () => {
-    return (
-        <div className="home" transition-style="in:circle:top-right">
-            <div className="home-hero" >
-                <h1 data-aos="flip-left" >Home</h1>
-            </div>
-        </div>
+  return (
+    <div className="home" transition-style="in:circle:top-right" >
+      <section className="section section-hero container-dark "  data-aos="fade-up"
+      data-aos-duration="500">
         
-    )
-}
+      </section>
+    </div>
+  );
+};
 
 export default Home;
