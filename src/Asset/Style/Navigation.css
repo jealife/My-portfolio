@@ -1,30 +1,43 @@
 .nav { 
-    /* height:90px; */
     background:#ffffff;
     top: 0; 
     right: 0; 
     width: 100%; 
-    display: grid; 
-    place-content: center; 
     box-shadow: #110c2e11 0px 15px 50px 0px; 
+    display: flex; 
+    align-content: center; 
+    justify-content: space-between; 
 } 
- 
+ .header{
+    
+    width:100%;
+ }
 nav { 
     width: 100%; 
     padding: 25px; 
-    display: flex; 
-    align-content: center; 
-    justify-content: center; 
     position: fixed; 
     z-index: 10000; 
 } 
  
 .menu { 
-    width: 100%; 
-    display: flex; 
+     display:flex;
+     align-items:center;
+    padding:0 0 .5rem 0;
     gap: 25px; 
 }
 .link-item{
     text-decoration: none;
     color: #0b131d;
+    padding:0  .5rem ;
+    display: inline-block; 
+    margin-left:.2rem;
+}
+
+.active{
+    border-bottom: #f2f3fa solid 0.5px;
+    color:#0e0e0e;
+    border-radius:1rem ;
+}
+.logo{
+    width:35px;
 }

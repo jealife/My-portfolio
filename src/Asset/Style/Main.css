@@ -19,10 +19,10 @@ html {
     display: grid;
     place-content: center;
 }
-.portfolio{
+.portfolio,.about-hero{
     background:#f2f3fa ;
 }
 .home{
     
-    background: #e0e0e0;
+    background: #f2f3fa;
 }

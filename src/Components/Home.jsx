@@ -7,8 +7,8 @@ const Home = () => {
             <div className="home-hero" >
                 <h1 data-aos="flip-left" >Home</h1>
             </div>
-            <About/>
         </div>
+        
     )
 }
 
