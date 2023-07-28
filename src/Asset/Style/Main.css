@@ -107,6 +107,7 @@ body::-webkit-scrollbar-thumb {
     display: grid;
     place-content: center;
     padding: 2rem 0;
+    background: var(--bg-color);
 }
 
 a {
