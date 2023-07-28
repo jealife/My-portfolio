@@ -19,7 +19,7 @@ nav{
     position: fixed;
     top: 10px;
     border-radius: 50px;
-    padding: 0.6rem  1.8rem ;
+    padding: 1rem  1.8rem ;
 }
 
 
@@ -93,11 +93,10 @@ nav{
         background-color: #ecf0f3a6;
         backdrop-filter: blur(5px);
         -webkit-backdrop-filter: blur(5px);
+        transition: all .5s ease-in-out;
     }
     .menu-dropdown.showMenu{
         right: 0px;
-        transition: all .5s ease;
-
     }
 
     /*  hero  */
