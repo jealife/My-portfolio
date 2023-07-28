@@ -27,6 +27,7 @@ nav{
     margin-left: 2rem;
     color: #07080c;
     font-weight: 500;
+    font-size: 1.2rem;
     padding: 0.5rem 0;
     transition: all .5s;
 }
@@ -43,7 +44,7 @@ nav{
 
 .active {
     color: #2A46FF;
-    border-radius: .5rem;
+    border-radius:0 0 0 .5rem;
     border-bottom: #2A46FF 1px solid;
 }
 
@@ -51,10 +52,10 @@ nav{
     display: none;
 }
 
-.menu-icon{
+.menu-icon box-icon{
     color: #07080c;
     cursor: pointer;
-    font-size: 30px;
+    font-size: 1.5rem;
 }
 
 /* .active {
@@ -80,15 +81,16 @@ nav{
     /* Menu  */
     .menu-dropdown {
         width: 200px;
-        height: 100dvh;
+        height: max-content;
         flex-direction: column;
         gap: 10px;
         align-items: flex-start;
         justify-content: flex-start;
-        padding: 15px 15px 0 0 ;
+        padding: 15px 15px 15px 0 ;
         top: 100%;
         right: -300px;
         position: absolute;
+        border-radius: 0 0 0 24px ;
         border: 1px solid #a6b4c8de;
         background-color: #ecf0f3a6;
         backdrop-filter: blur(5px);
